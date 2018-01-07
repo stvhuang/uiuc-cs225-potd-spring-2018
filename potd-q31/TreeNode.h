@@ -9,13 +9,13 @@ struct TreeNode {
     TreeNode *left_;
     TreeNode *right_;
     TreeNode(int x) {
-      left_ = NULL;
-      right_ = NULL;
-      val_ = x;
+        left_ = NULL;
+        right_ = NULL;
+        val_ = x;
     }
 };
 
-bool isHeightBalanced(TreeNode* subRoot);
+bool isHeightBalanced(TreeNode *subRoot);
 
 bool isBalancedInorder(TreeNode *subRoot);
 
@@ -23,6 +23,6 @@ bool getHeightBalance(TreeNode *subRoot);
 
 int getHeight(TreeNode *subRoot);
 
-void deleteTree(TreeNode* root);
+void deleteTree(TreeNode *root);
 
 #endif

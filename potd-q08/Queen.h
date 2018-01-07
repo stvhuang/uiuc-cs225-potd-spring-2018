@@ -4,8 +4,8 @@
 #include "Piece.h"
 
 class Queen : public Piece {
- public:
-  string getType();
+  public:
+    string getType();
 };
 
 #endif

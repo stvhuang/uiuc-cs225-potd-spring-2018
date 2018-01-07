@@ -6,18 +6,18 @@
 #include <string>
 
 namespace potd {
-  class student {
-   public:
+class student {
+  public:
     student();
     std::string get_name();
     void set_name(std::string);
     int get_grade();
     void set_grade(int);
 
-   private:
+  private:
     std::string name_;
     int grade_;
-  };
-}
+};
+}  // namespace potd
 
 #endif

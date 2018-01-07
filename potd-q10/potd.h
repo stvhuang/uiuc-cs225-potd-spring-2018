@@ -2,7 +2,7 @@
 #define POTD_H
 
 namespace potd {
-    int *raise(int *arr);
+int *raise(int *arr);
 }
 
 #endif

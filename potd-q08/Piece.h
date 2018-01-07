@@ -6,8 +6,8 @@
 using namespace std;
 
 class Piece {
- public:
-  string getType();
+  public:
+    string getType();
 };
 
 #endif

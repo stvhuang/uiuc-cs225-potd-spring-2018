@@ -7,7 +7,7 @@
 using namespace std;
 
 int main() {
-    Pet p("cat","fish","Garfield","John");
+    Pet p("cat", "fish", "Garfield", "John");
 
     cout << Animal(p).print() << endl;
     cout << p.print() << endl;

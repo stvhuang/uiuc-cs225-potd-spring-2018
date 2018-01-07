@@ -4,10 +4,10 @@
 #include <iostream>
 
 class Base {
- public:
-  virtual ~Base();
-  std::string foo();
-  virtual std::string bar();
+  public:
+    virtual ~Base();
+    std::string foo();
+    virtual std::string bar();
 };
 
 #endif

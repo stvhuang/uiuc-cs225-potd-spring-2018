@@ -36,9 +36,9 @@ int factorial(int fact);
 bool samesies(int inone, int intwo);
 
 /*  FUNCTION 5
-	This function returns a number's absolute value
-	@param absolutely: Int
-	*/
+        This function returns a number's absolute value
+        @param absolutely: Int
+        */
 int absolutely(int y);
 
 /* FUNCTION 6
@@ -47,6 +47,5 @@ int absolutely(int y);
    @param second Int, range between -100 and 100, inclusive
    */
 int magnaCalca(int first, int second);
-
 
 #endif

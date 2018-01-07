@@ -5,7 +5,8 @@
 #ifndef POTD_H
 #define POTD_H
 
-template<typename T> const T & more(const T &one, const T &two) {
+template <typename T>
+const T &more(const T &one, const T &two) {
     // your code here
     if (one > two) {
         return one;

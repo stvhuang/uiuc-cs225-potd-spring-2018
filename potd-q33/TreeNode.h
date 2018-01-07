@@ -10,16 +10,16 @@ struct TreeNode {
     TreeNode *right_;
     TreeNode *parent_;
     TreeNode(int x) {
-      left_ = NULL;
-      right_ = NULL;
-      val_ = x;
-      parent_ = NULL;
+        left_ = NULL;
+        right_ = NULL;
+        val_ = x;
+        parent_ = NULL;
     }
 };
 
-void rightRotate(TreeNode* root);
-void leftRotate(TreeNode* root);
+void rightRotate(TreeNode *root);
+void leftRotate(TreeNode *root);
 
-void deleteTree(TreeNode* root);
+void deleteTree(TreeNode *root);
 
 #endif

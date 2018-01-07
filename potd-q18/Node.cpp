@@ -5,7 +5,7 @@ using namespace std;
 void sortList(Node **head) {
     if (*head == NULL)
         return;
-  // your code here!
+    // your code here!
     Node *first = *head;
     Node *pre_first = NULL;
     Node *pre = first;
@@ -41,7 +41,7 @@ void sortList(Node **head) {
             *head = first;
             pre_first = first;
         }
-        
+
         first = first->next_;
         pre = first;
         pre_max = NULL;
@@ -53,9 +53,7 @@ void sortList(Node **head) {
     }
 }
 
-Node::Node() {
-    numNodes++;
-}
+Node::Node() { numNodes++; }
 
 Node::Node(Node &other) {
     this->data_ = other.data_;
@@ -63,9 +61,6 @@ Node::Node(Node &other) {
     numNodes++;
 }
 
-Node::~Node() {
-    numNodes--;
-}
+Node::~Node() { numNodes--; }
 
 int Node::numNodes = 0;
-

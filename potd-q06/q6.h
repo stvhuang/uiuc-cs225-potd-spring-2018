@@ -5,6 +5,6 @@
 
 #include "student.h"
 
-void graduate(potd::student & s);
+void graduate(potd::student &s);
 
 #endif

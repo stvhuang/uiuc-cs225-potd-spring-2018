@@ -2,10 +2,9 @@
 
 #include "Animal.h"
 
-Animal::Animal() : type_("cat"), food_("fish") {};
+Animal::Animal() : type_("cat"), food_("fish"){};
 
-Animal::Animal(std::string type, std::string food)
-  : type_(type), food_(food) {}
+Animal::Animal(std::string type, std::string food) : type_(type), food_(food) {}
 
 std::string Animal::getType() { return type_; }
 

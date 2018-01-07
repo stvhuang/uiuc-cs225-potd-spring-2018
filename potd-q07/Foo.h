@@ -6,18 +6,19 @@
 using namespace std;
 
 namespace potd {
-    class Foo {
-        public:
-            Foo(string);
-            Foo(const Foo &);
-            Foo & operator=(const Foo &);
-            ~Foo();
-            static int get_count();
-            string get_name();
-        private:
-            static int count_;
-            string name_;
-    };
-}
+class Foo {
+  public:
+    Foo(string);
+    Foo(const Foo &);
+    Foo &operator=(const Foo &);
+    ~Foo();
+    static int get_count();
+    string get_name();
+
+  private:
+    static int count_;
+    string name_;
+};
+}  // namespace potd
 
 #endif

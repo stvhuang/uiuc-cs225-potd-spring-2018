@@ -4,4 +4,4 @@
 #include <iostream>
 using namespace std;
 
-HuffmanNode::HuffmanNode() : left_(NULL), right_(NULL), char_(0) { }
+HuffmanNode::HuffmanNode() : left_(NULL), right_(NULL), char_(0) {}

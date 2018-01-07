@@ -1,8 +1,7 @@
 #include "TreeNode.h"
 #include <algorithm>
 
-void rightRotate(TreeNode* root) {
-
+void rightRotate(TreeNode *root) {
     // Your code here
     TreeNode *temp = root->left_;
     root->left_ = root->left_->right_;
@@ -15,8 +14,7 @@ void rightRotate(TreeNode* root) {
     return;
 }
 
-void leftRotate(TreeNode* root) {
-
+void leftRotate(TreeNode *root) {
     // your code here
     TreeNode *temp = root->right_;
     root->right_ = root->right_->left_;
@@ -29,11 +27,11 @@ void leftRotate(TreeNode* root) {
     return;
 }
 
-void deleteTree(TreeNode* root)
-{
-  if (root == NULL) return;
-  deleteTree(root->left_);
-  deleteTree(root->right_);
-  delete root;
-  root = NULL;
+void deleteTree(TreeNode *root) {
+    if (root == NULL)
+        return;
+    deleteTree(root->left_);
+    deleteTree(root->right_);
+    delete root;
+    root = NULL;
 }

@@ -1,10 +1,10 @@
+#include "square.h"
 #include <iostream>
 #include <string>
-#include "square.h"
 
 using namespace std;
 
-int main(){
+int main() {
     Square a;
     Square b = a;
     Square c = a + b;

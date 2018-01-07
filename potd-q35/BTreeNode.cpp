@@ -1,7 +1,7 @@
-#include <vector>
 #include "BTreeNode.h"
+#include <vector>
 
-BTreeNode* find(BTreeNode* root, int key) {
+BTreeNode *find(BTreeNode *root, int key) {
     // Your Code Here
     if (root->children_.size() == 0) {
         // Leaf node, no children

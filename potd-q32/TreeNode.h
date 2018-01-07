@@ -10,16 +10,16 @@ struct TreeNode {
     TreeNode *left_;
     TreeNode *right_;
     TreeNode(int x) {
-      left_ = NULL;
-      right_ = NULL;
-      val_ = x;
-      balance_ = 0;
+        left_ = NULL;
+        right_ = NULL;
+        val_ = x;
+        balance_ = 0;
     }
 };
 
-TreeNode* findLastUnbalanced(TreeNode* root);
+TreeNode *findLastUnbalanced(TreeNode *root);
 
-void deleteTree(TreeNode* root);
+void deleteTree(TreeNode *root);
 
 int getHeight(TreeNode *subRoot);
 

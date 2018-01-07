@@ -6,11 +6,11 @@
 using namespace std;
 
 class HuffmanNode {
-    public:
-        HuffmanNode *left_;
-        HuffmanNode *right_;
-        char char_;
-        HuffmanNode();
+  public:
+    HuffmanNode *left_;
+    HuffmanNode *right_;
+    char char_;
+    HuffmanNode();
 };
 
 #endif

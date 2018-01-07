@@ -1,5 +1,5 @@
-#include <vector>
 #include "BTreeNode.h"
+#include <vector>
 
 void traverse(BTreeNode *subRoot, std::vector<int> &v) {
     if (subRoot->children_.size() == 0) {  // Leaf node
@@ -16,7 +16,7 @@ void traverse(BTreeNode *subRoot, std::vector<int> &v) {
     return;
 }
 
-std::vector<int> traverse(BTreeNode* root) {
+std::vector<int> traverse(BTreeNode *root) {
     // your code here
     std::vector<int> v;
     traverse(root, v);

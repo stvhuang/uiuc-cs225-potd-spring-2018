@@ -7,7 +7,7 @@
 
 class Food {
   public:
-    Food(std::string name="unknown", int quantity=1);
+    Food(std::string name = "unknown", int quantity = 1);
     std::string get_name();
     void set_name(std::string);
     int get_quantity();

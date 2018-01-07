@@ -1,5 +1,5 @@
-#include "HuffmanNode.h"
 #include "HuffmanUtils.h"
+#include "HuffmanNode.h"
 #include <string>
 
 using std::string;
@@ -13,7 +13,7 @@ using std::string;
  * Remember 0s in the string mean left and 1s mean right.
  */
 
-string binaryToString(string binaryString, HuffmanNode* huffmanTree) {
+string binaryToString(string binaryString, HuffmanNode *huffmanTree) {
     /* TODO: Your code here */
     return "";
 }
@@ -28,7 +28,7 @@ string binaryToString(string binaryString, HuffmanNode* huffmanTree) {
  * Remember 0s in the binary string mean left and 1s mean right
  */
 
-string stringToBinary(string charString, HuffmanNode* huffmanTree) {
+string stringToBinary(string charString, HuffmanNode *huffmanTree) {
     /* TODO: Your code here */
     return "";
 }

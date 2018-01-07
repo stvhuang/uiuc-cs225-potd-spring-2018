@@ -1,20 +1,18 @@
 #ifndef BTREENODE_H
 #define BTREENODE_H
 
-#include <string>
 #include <algorithm>
+#include <string>
 #include <vector>
 
 struct BTreeNode {
-    bool is_leaf_=true;
+    bool is_leaf_ = true;
     std::vector<int> elements_;
-    std::vector<BTreeNode*> children_;
+    std::vector<BTreeNode *> children_;
     BTreeNode() {}
-    BTreeNode (std::vector<int> v) {
-      this->elements_ = v;
-    }
+    BTreeNode(std::vector<int> v) { this->elements_ = v; }
 };
 
-BTreeNode* find(BTreeNode* root, int key);
+BTreeNode *find(BTreeNode *root, int key);
 
 #endif

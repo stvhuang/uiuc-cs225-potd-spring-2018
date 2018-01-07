@@ -15,19 +15,11 @@ void reset_correct_arr() {
     }
 }
 
-int sol_hours(time_t s) {
-    return s / 3600;
-};
+int sol_hours(time_t s) { return s / 3600; };
 
-int sol_days(time_t s) {
-    return sol_hours(s)/24;
-};
+int sol_days(time_t s) { return sol_hours(s) / 24; };
 
-
-int sol_years(time_t s) {
-    return sol_days(s) / 365;
-};
-
+int sol_years(time_t s) { return sol_days(s) / 365; };
 
 TEST_CASE("Test that hours returns the correct number.") {
     reset_correct_arr();

@@ -6,11 +6,11 @@
 using namespace std;
 
 class TreeNode {
-    public:
-        TreeNode *left_;
-        TreeNode *right_;
-        TreeNode();
-        int getHeight();
+  public:
+    TreeNode *left_;
+    TreeNode *right_;
+    TreeNode();
+    int getHeight();
 };
 
 #endif

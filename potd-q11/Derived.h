@@ -4,10 +4,10 @@
 #include "Base.h"
 
 class Derived : public Base {
- public:
-  virtual ~Derived();
-  std::string foo();
-  virtual std::string bar();
+  public:
+    virtual ~Derived();
+    std::string foo();
+    virtual std::string bar();
 };
 
 #endif

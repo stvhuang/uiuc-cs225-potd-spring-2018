@@ -5,6 +5,4 @@ using namespace std;
 
 #include "hello.h"
 
-int main() {
-    cout << hello() << endl;
-}
+int main() { cout << hello() << endl; }
