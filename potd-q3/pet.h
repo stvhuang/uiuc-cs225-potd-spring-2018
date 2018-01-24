@@ -8,6 +8,8 @@ using namespace std;
 class Pet {
  public:
   // Declare your constructors here!
+  Pet();
+  Pet(std::string n, int y, std::string t, std::string o_n);
 
   // Other member functions
   void setName(string newName);
