@@ -8,9 +8,12 @@ using namespace std;
 // Put your prototypes here!
 
 // pass_by_value:
+void pass_by_value(Circle);
 
 // pass_by_pointer:
+void pass_by_pointer(Circle *);
 
 // pass_by_ref:
+void pass_by_ref(Circle &);
 
 #endif
