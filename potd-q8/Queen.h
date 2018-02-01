@@ -1,8 +1,11 @@
 #ifndef _QUEEN_H
 #define _QUEEN_H
 
-class Queen {
+#include "Piece.h"
 
+class Queen : public Piece {
+ public:
+  string getType();
 };
 
 #endif
