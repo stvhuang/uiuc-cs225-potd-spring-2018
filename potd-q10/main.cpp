@@ -16,4 +16,7 @@ int main() {
     for(int i=0; y[i] != -1; i++)
         cout << y[i] << " ";
     cout << endl;
+
+    delete[] y;
+    return 0;
 }
