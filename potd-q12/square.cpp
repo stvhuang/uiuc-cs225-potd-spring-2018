@@ -36,3 +36,19 @@ Square::~Square() {
     delete lengthptr;
 }
 
+Square & Square::operator=(const Square & other) {
+  name = other.name;
+  if (lengthptr != NULL) {
+    delete lengthptr;
+    lengthptr = NULL;
+  }
+  lengthptr = new double(*other.lengthptr);
+  return *this;
+}
+
+Square Square::operator+(const Square & other) {
+  Square tmp;
+  tmp.name = this->name + other.name;
+  tmp.lengthptr = new double(*this->lengthptr + *other.lengthptr);
+  return tmp;
+}
