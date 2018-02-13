@@ -29,3 +29,10 @@ void increaseQuantity(Food * food) {
     (*food).setQuantity((*food).getQuantity() + 1);
 }
 
+bool Food::operator>(const Food &that) const {
+  if (quantity_ > that.quantity_) {
+    return true;
+  } else {
+    return false;
+  }
+}
