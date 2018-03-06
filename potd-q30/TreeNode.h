@@ -17,6 +17,7 @@ struct TreeNode {
 
 int getHeightBalance(TreeNode* root);
 
+int getHeight(TreeNode *subRoot);
 void deleteTree(TreeNode* root);
 
 #endif
