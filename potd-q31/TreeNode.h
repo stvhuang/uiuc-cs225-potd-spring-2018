@@ -15,7 +15,13 @@ struct TreeNode {
     }
 };
 
-bool isHeightBalanced(TreeNode* root);
+bool isHeightBalanced(TreeNode* subRoot);
+
+bool isBalancedInorder(TreeNode *subRoot);
+
+bool getHeightBalance(TreeNode *subRoot);
+
+int getHeight(TreeNode *subRoot);
 
 void deleteTree(TreeNode* root);
 
