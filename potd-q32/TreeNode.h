@@ -21,4 +21,8 @@ TreeNode* findLastUnbalanced(TreeNode* root);
 
 void deleteTree(TreeNode* root);
 
+int getHeight(TreeNode *subRoot);
+
+int getBalance(TreeNode *subRoot);
+
 #endif
